@@ -1,9 +1,9 @@
 FROM smalllark/java
-MAINTAINER Dmitri Sh <smalllark@gmail.com>
+MAINTAINER MCHacker <mcfun001@126.com>
 
 # Install Upsource.
 ENV UPSOURCE_HOME_DIR /var/lib/upsource
-ENV UPSOURCE_VERSION 3.0.4237
+ENV UPSOURCE_VERSION 3.0.4396
 RUN mkdir -p $UPSOURCE_HOME_DIR && \
     apt-get update && \
     apt-get install -y unzip && \
